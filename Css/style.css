@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+#header{
+    background: chartreuse;
+    height: 100px;
+    width: 100%;
+}
+#main{
+    background: coral;
+    height: 300px;
+    width: 70%;
+    float: left;
+}
+#sidebar{
+    background: red;
+    height: 300px;
+    width: 30%;
+    float: left;
+    /*-- float left khi muốn hai thể ở cung một dòng*/
+}
+#footer{
+    background: antiquewhite;
+    height: 100px;
+    width: 100%;
+    clear: both;
+    /* clear both khi không muốn cho các thẻ khác xuất hiện ở hai đầu*/
+}
